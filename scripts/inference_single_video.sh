@@ -4,10 +4,10 @@
 sample_mode="cross" # or "reconstruction"
 NUM_GPUS=1
 generate_from_filelist=0
-video_path="path/to/video.mp4"
-audio_path="path/to/audio.mp4"
-out_path="path/to/output.mp4"
-model_path="path/to/model.pt"
+video_path=$1 #"path/to/video.mp4"
+audio_path=$2 #"path/to/audio.mp4"
+out_path=$3 #"path/to/output.mp4"
+model_path=$4 #"path/to/model.pt"
 
 
 
